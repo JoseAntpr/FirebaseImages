@@ -18,11 +18,11 @@ export class UploadComponent implements OnInit {
   }
 
   uploadImages() {
-    this._uploadImages.uploadImages( this.files) ;
+    this._uploadImages.uploadImages( this.files ) ;
   }
 
-  prueba(event) {
-    console.log(event);
+  cleanFiles() {
+    this.files = [];
   }
 
 }
